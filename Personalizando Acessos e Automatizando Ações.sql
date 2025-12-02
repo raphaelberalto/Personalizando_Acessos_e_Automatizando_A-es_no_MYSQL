@@ -138,11 +138,12 @@ BEGIN
         )
         VALUES (
         OLD.Fname,
-        Old.Minit,
-        OLD, Lname,
+        OLD.Minit,
+        OLD.Lname,
         OLD.Ssn,
         OLD.Bdate,
         OLD.Address,
         OLD.Dno
         );
+
 END;        
